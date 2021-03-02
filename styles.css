@@ -1,0 +1,217 @@
+.qn-1 .btm-dwn{
+    border-bottom: 1px solid black;
+    display: inline;
+}
+
+.equal {
+    position: relative;
+    left: 65px;
+    bottom:55px;
+    /* margin-bottom: -55px; */
+}
+
+.right {
+    position: relative;
+    left: 125px;
+    bottom:101px;
+    margin-bottom: -101px;
+}
+
+img{
+    border-radius: 30px;
+    border: 1px dashed blue;
+    filter: grayscale(100%);
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+.qn-4 span {
+    padding: 10px;
+}
+
+.alias {cursor: alias;}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.context-menu {cursor: context-menu;}
+.col-resize {cursor: col-resize;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: -webkit-grab; cursor: grab;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer;}
+.progress {cursor: progress; display: inline;}
+.row-resize {cursor: row-resize;}
+.s-resize {cursor: s-resize;}
+.se-resize {cursor: se-resize;}
+.sw-resize {cursor: sw-resize;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;}
+.w-resize {cursor: w-resize;}
+.wait {cursor: wait;}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;}
+
+.box-model{
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid blue;
+}
+
+.msehover h4:hover{
+    color: blue;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.qn-7 h4{
+    transform: translate(40px, 10px);
+}
+
+.qn-8 .tooltiptext{
+    visibility: hidden;
+}
+
+.qn-8:hover .tooltiptext{
+    visibility: visible;
+}
+
+.qn-9 .clipped{
+    position: absolute;
+    top: 1765px;
+    left: 450px;
+
+    clip: rect(auto,200px,30px,auto);
+}
+
+.qn-10{
+    width: 50%;
+}
+.qn-10 h1{
+    float: left;
+    font-size: 90px;
+    position: relative;
+    bottom: 20px;
+    margin-bottom: -20px;
+}
+
+.qn-10 p{
+    font-size: 20px;
+}
+
+.rectangle{
+    height: 200px;
+    width: 250px;
+    background-color:crimson;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.rect{
+    height: 30px;
+    width: 300px;
+    background-color:crimson;
+    position: relative;
+    top: 10px;
+    color: white;
+}
+
+.qn-12 {
+    background-image: url('https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&h=750&w=1500');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#flexrev div{
+    width: 50px;
+  height: 50px;
+}
+
+#flexrev {
+    display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  right: 450px;
+}
+
+.stretch {
+border: 10px solid transparent;
+    border-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT44C4MgJbiBw70S9g3ecQXpBzwOpjaIRlX3A&usqp=CAU') 30 stretch;
+}
+
+.bootomrad{
+    width: 250px;
+    height: 250px;
+    background-color: yellowgreen;
+    border: 10 solid green;
+    border-bottom-left-radius: 25px;
+}
+
+.qn-16 img:hover{
+    opacity: 0;
+}
+
+.qn-17 .bootomrad{
+    position: absolute;
+    right: 2px;
+    top: 3765px;
+    height: 60px;
+    border-bottom-left-radius: 0px;
+}
+
+.qn-18 .bootomrad{
+    border-bottom-left-radius: 0px;
+    overflow: scroll;
+    width: 150px;
+  height: 150px;
+}
+
+.qn-19 .lnrad{
+    
+    height: 250px;
+    background-image: linear-gradient(white, red, blue, green);
+    
+}
+
+.trnsfrm{
+    width: 250px;
+    height: 250px;
+    background-color: tomato;
+    transform: rotate(45deg);
+    position: relative;
+    top: 40px;
+}
+
+.last {
+    position: relative;
+    top: 80px;
+}
+
+body {
+    background-color:azure;
+background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+
+}
+
+@media screen and (max-width: 1000px) {
+    .qn-3 h4 {
+      font-size: 10px;
+    }
+  }
